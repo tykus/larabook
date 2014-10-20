@@ -8,6 +8,8 @@
 
   <div class="container">
 
+    @include('layouts.partials.nav')
+
     @yield('content')
 
   </div>
